@@ -17,10 +17,10 @@ pipeline {
                 sh 'terraform plan'
             }
         } 
-        stage('action') {
-            steps {
-                sh 'terraform apply -auto-approve'
-            }
-        }
+        #stage('action') {
+         #   steps {
+          #      sh 'terraform apply -auto-approve'
+           # }
+        #}
     }
 }
