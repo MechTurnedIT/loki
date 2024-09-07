@@ -17,10 +17,6 @@ pipeline {
                 sh 'terraform plan'
             }
         } 
-        #stage('action') {
-         #   steps {
-          #      sh 'terraform apply -auto-approve'
-           # }
-        #}
+    
     }
 }
